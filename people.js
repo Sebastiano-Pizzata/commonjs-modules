@@ -6,13 +6,22 @@
 
 import names from "./names.js"
 
-names("Mario", "Ghezzi")
+names()
 
 
-import hobbies from "./hobbies.js"
+import hobby from "./hobbies.js"
 
-hobbies("calcio", "basket", "nuoto")
+hobby()
 
+
+function oggetto() {
+    return {
+        fullName: names("Mario", "Ghezzi"),
+        hobbies: hobby("calcio", "basket", "nuoto")
+    }
+}
+
+console.log(oggetto())
 
 
 
