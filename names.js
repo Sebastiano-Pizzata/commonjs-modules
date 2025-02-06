@@ -11,6 +11,4 @@ function names(firstName, lastName) {
     }
 }
 
-export {
-    names
-}
+export default names
